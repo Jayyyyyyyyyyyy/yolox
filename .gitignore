@@ -7,6 +7,8 @@
 # KDE directory preferences
 .directory
 model/*
+dataset/*
+!dataset/process.py
 # Linux trash folder which might appear on any partition or disk
 .Trash-*
 
