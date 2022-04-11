@@ -6,6 +6,9 @@ import argparse
 import os
 import time
 
+import sys
+sys.path.append('./')
+
 import cv2
 import megengine as mge
 import megengine.functional as F
@@ -190,6 +193,6 @@ def main(args):
 if __name__ == "__main__":
     args = make_parser().parse_args()
     main(args)
-# python tools/demo.py image -n yolox-s -c model/yolox_s.pth --path assets/* --conf 0.25 --nms 0.45 --tsize 416 --save_result
+# python tools/demo.py image -n yolox-s -c model/yolox_s.pth --path assets/dog.jpg --conf 0.25 --nms 0.45 --tsize 416 --save_result
 
 # python -m pip install megengine==1.6.0rc1 -f https://megengine.org.cn/whl/mge.html
