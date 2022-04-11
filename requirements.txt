@@ -1,11 +1,11 @@
-numpy
-torch
-opencv_python
+# numpy
+# torch
+# opencv_python
 loguru
-scikit-image
-tqdm
-torchvision
-Pillow
-ninja
+# scikit-image
+# tqdm
+# torchvision
+# Pillow
+# ninja
 tabulate
 megengine==1.6.0
